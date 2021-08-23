@@ -1,7 +1,7 @@
 /* eslint-disable no-alert */
 // @ts-ignore: Unreachable code error
 import * as React from 'react';
-import { treeBehavior } from '@fluentui/accessibility';
+// import { treeBehavior } from '@fluentui/accessibility';
 import {
   ComponentWithAs,
   useUnhandledProps,
@@ -430,6 +430,6 @@ const ItemWrapper = React.memo<ListChildComponentProps & { data: VirtualItemData
 VirtualStickyTree.displayName = 'VirtualStickyTree';
 
 VirtualStickyTree.defaultProps = {
-  accessibility: treeBehavior,
-  itemSize: 50,
+//   accessibility: treeBehavior,
+  itemSize: 150,
 };
