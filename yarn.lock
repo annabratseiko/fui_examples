@@ -1200,6 +1200,7 @@
   dependencies:
     "@babel/runtime" "^7.10.4"
     "@fluentui/accessibility" "^0.57.0"
+    "@fluentui/react-component-event-listener" "^0.57.0"
     "@fluentui/react-component-ref" "^0.57.0"
     "@fluentui/react-northstar-fela-renderer" "^0.57.0"
     "@fluentui/react-northstar-styles-renderer" "^0.57.0"
@@ -1211,6 +1212,13 @@
     prop-types "^15.7.2"
     react-is "^16.6.3"
     scheduler "^0.20.1"
+
+"@fluentui/react-component-event-listener@^0.57.0":
+  version "0.57.0"
+  resolved "https://domoreexp.pkgs.visualstudio.com/_packaging/npm-mirror/npm/registry/@fluentui/react-component-event-listener/-/react-component-event-listener-0.57.0.tgz#fb3003b90b205e31f5162233d9ac6e02220ec03e"
+  integrity sha1-+zADuQsgXjH1FiIz2axuAiIOwD4=
+  dependencies:
+    "@babel/runtime" "^7.10.4"
 
 "@fluentui/react-component-nesting-registry@^0.57.0":
   version "0.57.0"
@@ -1276,6 +1284,7 @@
     "@fluentui/accessibility" "^0.57.0"
     "@fluentui/dom-utilities" "^1.1.1"
     "@fluentui/react-bindings" "^0.57.0"
+    "@fluentui/react-component-event-listener" "^0.57.0"
     "@fluentui/react-component-nesting-registry" "^0.57.0"
     "@fluentui/react-component-ref" "^0.57.0"
     "@fluentui/react-icons-northstar" "^0.57.0"
